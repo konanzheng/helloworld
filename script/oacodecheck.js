@@ -1,4 +1,4 @@
-function organization_allocation_code_check(OAcode){
+function oacode_check(OAcode){
   var code_str=OAcode.toString();
 	var code_val_temp;
 	if(code_str.length!=9){
